@@ -3,93 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space Exploration Page</title>
+    <title>Time Line</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Diplomata+SC&family=Lobster&family=Rubik+Dirt&family=Rubik+Vinyl&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper">
-    <video autoplay muted loop id="myVideo">
-        <source src="video.mp4" type="video/mp4">
-      </video>
-    <div class="navbar">
-        <div class="logo">SPACED</div>
-        <i class="fa-solid fa-bars" id="hide"></i>
-        <div class="navlist">
-            <a href="#" >Destination</a>
-            <a href="#" >Experience</a>
-            <a href="#" >Sign In</a>
-            <a href="#" >Join</a>
-            <a href="#game">Fun-Game</a>
+    <div class="video-background">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="rotating moon.mp4" type="video/mp4">
+        </video>
+    <h1>Indian Origin Asronauts</h1>
+    <section id="timeLine">
+        <div class="content">
+        <div class="box" id="Rakesh">
+            <h2>Rakesh Sharma (1984)</h2>
+            <p id="p1"></p>
         </div>
     </div>
-    <div class="hero-section">
-        <h1>TO SPACE AND BACK SAFELY</h1>
-        <div class="book-section">
-         <div class="book-trip">
-            <div class="from dropdown">
-            <p>From</p>
-            <select>
-                <option selected>Earth</option>
-                <option>Moon</option>
-                <option>Sun</option>
-            </select>
-          </div>
-
-          <div class="to dropdown">
-            <p>To</p>
-            <select>
-                <option>Earth</option>
-                <option selected>Moon</option>
-                <option>Sun</option>
-            </select>
-        </div>
-
-            <div class="travelers dropdown">
-                <p>Travelers</p>
-                <select>
-                    <option>1 Adult</option>
-                    <option selected>2 Adults</option>
-                    <option>3 Adults</option>
-                </select>
-              </div>
-            </div>
-
-              <button class="book-btn">BOOK</button>
-    </div>
-</div>
-    <div class="footer">
-        <div class="discount">
-        <h4>NEW DISCOUNT</h4>
-        <p>To moon and back for $888!!!</p>
-        </div>
-        
-        <div class="watch">
-           <div class="icon"><i class="fa-solid fa-play"></i></div>
-           <p>Watch and dive in the Universe!</p>
+    <div class="content">
+        <div class="box" id="Kalpana">
+            <h2>Kalpana Chawala (1997)</h2>
+            <p id="p2"></p>
         </div>
     </div>
-</div>
-<div id="game">
-    <h1 id="heading1">FUN TIME</h1>
-    <h3 id="heading2">How To Play?</h3>
-    <p >
-        <ul id="rules">
-            <li>Enter your name</li>
-            <li>Your funny space name will be displayed !!!.</li>
-        </ul>
-    </p>
-    <input type="text" name="name" id="name" placeholder="Enter Your Name">
-    <button id="btn1">Generate</button>
-    <p id="display">Your Space Name is:</p>
-</div>
-</div>
+    <div class="content">
+        <div class="box" id="Sunita">
+            <h2>Sunita Williams (2006)</h2>
+            <p id="p3"></p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="box" id="Sirisha">
+            <h2>Sirisha Bandla (2021)</h2>
+            <p id="p4"></p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="box" id="Prasanth">
+            <h2>Prasanth Nair(scheduled)</h2>
+            <p id="p5"></p>
+        </div>
+    </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
