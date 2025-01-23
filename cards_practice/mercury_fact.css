@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;   
+}
+body{
+    background-color:#222831;
+    
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(2.1back_mercury.jpg) ;
+    background-size: cover;
+}
+.mercury_facts{
+    background-color:#393e4693;
+    margin:40px auto;
+    width:900px;
+    padding:20px; 
+    border:3px solid #00ADB5;
+    box-shadow: 0 0 10px 8px #f10404;
+    height:90vh;
+    overflow-y:auto;
+    /*margin-bottom:40px;*/
+}
+#heading{
+    color:black;
+    font-size:40px;
+    text-align: center;
+    margin-bottom:30px;
+}
+.sub_heading{
+    color:#00ADB5;
+    font-size:25px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+.description{
+    color:#EEEEEE;
+    font-size:20px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
