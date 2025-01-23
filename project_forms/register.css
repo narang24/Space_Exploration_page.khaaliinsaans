@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:0px;
+}
+body{
+    background-color: black;
+    
+}
+#heading{
+    font-size:40px;
+    padding:30px;
+    text-align:center;
+}
+#outer-box{
+    width:600px;
+    padding:25px;
+    margin:30px auto 30px;
+    background-color: forestgreen;
+    color:navy;
+    border:5px solid #CC5500;
+    box-shadow:0 0 5px 5px #CC5500;
+}
+#input-gender,#input-button,#input-confirm,#input-confirm,#emergency,#input-gravity,#input-medical,#input-date,#input-purpose,#input-planet,#input-address,#input-country,#input-phone,#input-name,#input-age,#input-email{
+    margin:20px auto;
+    width:90%;
+    position:relative;
+}
+.icon-purpose,.icon-planet,.icon-address,.icon-country,.icon-phone,.icon-name,.icon-age,.icon-email{
+    padding:7.4px 8px;
+    position:absolute;
+    font-size:20px;
+    border:1px solid #c4b6b6;
+}
+#purpose,#planet,#address,#country,#phone,#username,#age,#email{
+    width:100%; 
+    padding:7px 0 7px 45px;
+}
+#label-gender,#label-emergency,#label-gravity,#label-medical,#label-date{
+    font-size:20px;
+}
+.option-gender,#option-confirm,#number,.option-gravity,.option-medical,.option-date{
+    font-size:20px;
+    margin-right:25px;
+}
+#box-gender,#box-gravity,#box-medical,#box-date{
+    margin-top:10px;
+}
+#button{
+    width:100%;
+    padding:7px 0 7px 3px;
+}
+#country,#planet,#purpose{
+    cursor:pointer;
+}
+#purpose:hover,#planet:hover,#address:hover,#country:hover,#phone:hover,#username:hover,#age:hover,#email:hover{
+    box-shadow:0 0 5px 4px  rgb(46, 46, 213);
+}
+#purpose:focus,#planet:focus,#address:focus,#country:focus,#phone:focus,#username:focus,#age:focus,#email:focus{
+    border:2px solid rgb(1, 1, 251);
+}
+
+/* Default styles are applied for larger screens (above 1024px) */
+
+/* For tablets and small desktops (768px to 1024px) */
+@media (max-width: 1024px) {
+    #outer-box {
+        width: 80%;
+        padding: 20px;
+    }
+    #heading {
+        font-size: 35px;
+    }
+    #purpose, #planet, #address, #country, #phone, #username, #age, #email {
+        padding: 7px 0 7px 40px;
+    }
+    .icon-purpose, .icon-planet, .icon-address, .icon-country, .icon-phone, .icon-name, .icon-age, .icon-email {
+        font-size: 18px;
+    }
+    #button {
+        font-size: 18px;
+    }
+    .option-gender, #option-confirm, #number, .option-gravity, .option-medical, .option-date {
+        font-size: 18px;
+    }
+}
+
+/* For mobile devices (up to 767px) */
+@media (max-width: 767px) {
+    #outer-box {
+        width: 95%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+    #heading {
+        font-size: 30px;
+    }
+    #purpose, #planet, #address, #country, #phone, #username, #age, #email {
+        padding: 7px 0 7px 35px;
+        font-size: 16px;
+    }
+    .icon-purpose, .icon-planet, .icon-address, .icon-country, .icon-phone, .icon-name, .icon-age, .icon-email {
+        font-size: 16px;
+    }
+    #button {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .option-gender, #option-confirm, #number, .option-gravity, .option-medical, .option-date {
+        font-size: 16px;
+    }
+    #label-gender, #label-emergency, #label-gravity, #label-medical, #label-date {
+        font-size: 16px;
+    }
+}
+
+/* For very small devices (up to 480px) */
+@media (max-width: 480px) {
+    #outer-box {
+        padding: 10px;
+    }
+    #heading {
+        font-size: 25px;
+        padding: 20px;
+    }
+    #purpose, #planet, #address, #country, #phone, #username, #age, #email {
+        padding: 5px 0 5px 30px;
+        font-size: 14px;
+    }
+    .icon-purpose, .icon-planet, .icon-address, .icon-country, .icon-phone, .icon-name, .icon-age, .icon-email {
+        font-size: 14px;
+    }
+    #button {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .option-gender, #option-confirm, #number, .option-gravity, .option-medical, .option-date {
+        font-size: 14px;
+    }
+    #label-gender, #label-emergency, #label-gravity, #label-medical, #label-date {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+

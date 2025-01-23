@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login </title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+         <h2 id="heading">Sign in</h2>
+         <div class="form">
+              <form>
+                <div class="input" id="input-name">
+                        <i class="fa fa-user icon" aria-hidden="true"></i>
+                        <input type="text" class="name user" id="username-f" name="username" placeholder="First Name">
+
+                    <span>
+                        <i class="fa fa-user icon" aria-hidden="true"></i>
+                        <input type="text" class="name user" id="username-l" name="username" placeholder="Last Name">
+                    </span>
+                    
+                </div>
+                
+                <div class="input">
+                    <i class="fa fa-envelope icon" aria-hidden="true"></i>
+                    <input type="text" class="name" id="email" name="email" placeholder="Email">
+                </div>
+
+                <div class="input">
+                    
+                <span>
+                    <select  id="india" name="phone-number-prefix">
+                        <option  value="+91">+91</option>
+                    </select> 
+                </span>
+                    <i class="fa fa-phone-square icon" aria-hidden="true"></i>
+                    <input type="text" class="name" id="phone" name="phone" placeholder="Phone Number">
+                </div>
+                    
+                <div class="input">
+                    <i class="fa fa-unlock icon" aria-hidden="true"></i>
+                    <input type="text" id="Password" class="name" name="Password" placeholder="Password">
+                </div>  
+                
+                <div class="input"> 
+                    <i class="fa fa-unlock icon" aria-hidden="true"></i>
+                    <input type="text" class="name" id="comfirm_Password" name="confirm_Password" placeholder="Confirm Password">
+                </div>
+                
+                <div class="input">
+                    <input class="radio" type="radio"  id="male" name="gender" value="male">
+                    <label class="gender" for="male">Male</label>
+
+                    <span>
+                        <input class="radio"  type="radio"  id="female" name="gender" value="female">
+                        <label class="gender" for="female">Female</label>
+                    </span>
+                </div>
+
+                <div class="input">
+                    <i class="fa fa-globe icon" aria-hidden="true"></i>
+                    <select id="country" name="country">
+                        <option>Select a country</option>
+                        <option value="IN">India</option> 
+                        <option value="US">United States</option> 
+                        <option value="UK">United Kingdom</option> 
+                        <option value="CA">Canada</option> 
+                        <option value="AU">Australia</option> 
+                        <option value="DE">Germany</option> 
+                        <option value="FR">France</option> 
+                        <option value="JP">Japan</option> 
+                        <option value="CN">China</option> 
+                        <option value="BR">Brazil</option>
+                    </select>
+
+                    <div class="arrow">
+
+                    </div>
+                </div>
+
+                <div class="input">
+                    <input type="checkbox" id="terms" name="terms" value="yes">
+                    <label for="terms">I accept the terms and condition</label>
+                </div>
+
+                <div class="input" >
+                    <input id="button" type="submit" class="button" value="Sign in">
+                </div>
+              </form>
+         </div>
+    </div>
+</body>
+</html>

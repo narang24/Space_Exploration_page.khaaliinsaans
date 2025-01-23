@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="outer-box">
+        <form>
+            <div id="container">
+                <h2 id="heading">Registration form</h2>
+                <div id="personal-information">
+                    <div id="input-name">
+                        <i class="fa fa-user-circle icon-name" aria-hidden="true"></i>
+                        <input type="text" id="username" name="username" placeholder="Enter your name">
+                    </div>
+
+                    <div id="input-age">
+                        <i class="fa fa-sort-numeric-desc icon-age" aria-hidden="true"></i>
+                        <input type="number" id="age" name="age" placeholder="Enter your age">
+                    </div>
+
+                    <div id="input-gender">
+                        <i class="fa fa-male icon-gender" aria-hidden="true"></i>
+                        <label id="label-gender">Select gender</label>
+                        <div id="box-gender">
+                            <span class="option-gender">
+                                 <input type="radio" id="male" name="gender" value="male">
+                                 <label for="male">Male</label>
+                            </span>
+                        
+                            <span class="option-gender">
+                                  <input type="radio" id="female" name="gender" value="female">
+                                  <label for="female">Female</label>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div id="input-email">
+                        <i class="fa fa-envelope icon-email" aria-hidden="true"></i>
+                        <input type="text" id="email" name="email" placeholder="Enter your email address">
+                    </div>
+
+                    <div id="input-phone">
+                        <i class="fa fa-mobile icon-phone" aria-hidden="true"></i>
+                        <input type="text" id="phone" name="phone" placeholder="Enter your mobile number">
+                    </div>
+
+                    <div id="input-country">
+                        <i class="fa fa-globe icon-country" aria-hidden="true"></i>
+                        <select id="country" name="country">
+                            <option>--Select a country--</option>
+                            <option value="india">India</option> 
+                            <option value="usa">USA</option> 
+                            <option value="canada">Canada</option> 
+                            <option value="australia">Australia</option> 
+                            <option value="uk">United Kingdom</option> 
+                            <option value="japan">Japan</option> 
+                            <option value="germany">Germany</option> 
+                            <option value="france">France</option> 
+                            <option value="brazil">Brazil</option> 
+                            <option value="south-africa">South Africa</option> 
+                            <option value="china">China</option> 
+                            <option value="italy">Italy</option> 
+                            <option value="mexico">Mexico</option> 
+                            <option value="spain">Spain</option> 
+                            <option value="russia">Russia</option> 
+                            <option value="south-korea">South Korea</option> 
+                            <option value="nigeria">Nigeria</option> 
+                            <option value="saudi-arabia">Saudi Arabia</option> 
+                            <option value="argentina">Argentina</option> 
+                            <option value="egypt">Egypt</option>
+                        </select>
+                    </div>
+
+                    <div id="input-address">
+                        <i class="fa fa-address-card icon-address" aria-hidden="true"></i>
+                        <input type="text" id="address" name="address" placeholder="Enter your address">
+                    </div>
+                </div> 
+                
+                <div id="Travel preferences">
+                    <div id="input-planet">
+                        <i class="fa fa-globe icon-planet" aria-hidden="true"></i>
+                        <select id="planet" name="planet">
+                            <option value="">--Choose a Planet--</option> 
+                            <option value="Mercury">Mercury</option> 
+                            <option value="Venus">Venus</option> 
+                            <option value="Earth">Earth</option> 
+                            <option value="Mars">Mars</option> 
+                            <option value="Jupiter">Jupiter</option> 
+                            <option value="Saturn">Saturn</option> 
+                            <option value="Uranus">Uranus</option> 
+                            <option value="Neptune">Neptune</option>
+                        </select>
+                    </div> 
+                    
+                    <div id="input-purpose">
+                        <i class="fa fa-plane icon-purpose" aria-hidden="true"></i>
+                        <select id="purpose" name="purpose">
+                            <option>--Purpose of travel--</option>
+                            <option value="Leisure">Leisure</option>
+                            <option value="Research">Research</option>
+                            <option value="Business">Business</option>
+                        </select>
+                    </div>
+
+                    <div id="input-date">
+                        <i class="fa fa-calendar icon-date" aria-hidden="true"></i>
+                        <label id="label-date">Select a date to travel</label>
+                        <div id="box-date">
+                            <span id="option-date">
+                                 <input type="radio" id="jan" name="date" value="jan">
+                                 <label for="jan" id="label-jan">1_Jan_2026</label>
+                            </span>
+                            
+                            <span class="option-date">
+                                 <input type="radio" id="june" name="date" value="june">
+                                 <label for="jan">1_June_2026</label>
+                            </span>
+
+                            <span class="option-date">
+                                 <input type="radio" id="dec" name="date" value="dec">
+                                 <label for="jan">1_Dec_2026</label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div >
+                    <div id="input-medical">
+                        <i class="fa fa-plus-square icon-medical" aria-hidden="true"></i>
+                         <label id="label-medical">Do you have any pre-existing medical conditions?</label>
+                         
+                         <div id="box-medical">
+                            <span class="option-medical">
+                                 <input type="radio" id="yes" name="medical" value="yes">
+                                 <label for="yes">Yes</label>
+                            </span>
+
+                            <span class="option-medical">
+                                 <input type="radio" id="no" name="medical" value="no">
+                                 <label for="no">No</label>
+                            </span>
+                         </div>
+                    </div>
+
+                    <div id="input-gravity">
+                        <i class="fa fa-grav icon-gravity" aria-hidden="true"></i>
+                        <label id="label-gravity">Do you have prior experience in zero-gravity Zones?</label>
+
+                        <div id="box-gravity">
+                            <span class="option-gravity">
+                                <input type="radio" id="yes-m" name="gravity" value="yes">
+                                <label for="yes-m">Yes</label>
+                            </span>
+                             
+                            <span class="option-gravity">
+                                <input type="radio" id="no-m" name="gravity" value="no">
+                                <label for="no-m">No</label>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+
+                    <div id="emergency">
+                        <label id="label-emergency">Emergency number:</label>
+                        <span id="number">7894561238</span>
+                    </div>
+
+                    <div id="input-confirm">
+                        <span id="option-confirm">
+                             <input type="checkbox" id="terms" name="terms" value="terms">
+                             <label for="terms">I confirm that the information provided is accurate, and I agree to the Terms & Conditions.</label>
+                        </span>
+                    </div>
+
+                    <div id="input-button">
+                             <input id="button" type="submit" class="button" value="Start Your Space Adventure">
+                    </div>
+                
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

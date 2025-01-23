@@ -1,0 +1,163 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    outline: none;
+}
+body{
+    font-size: 20px;
+    background-image: url(bg4.png);
+    background-size: cover;
+    color:white;
+}
+.container{
+    background-color: rgba(86, 97, 89, 0.151);
+    width:600px;
+    padding:25px;
+    margin:30px auto 0;
+    border-top:5px solid #FFEB00;
+    box-shadow:0 0 15px 5px #FFEB00
+}
+#heading{
+    font-size:40px;
+    padding:30px;
+    text-align:center;
+}
+.input{
+    width:90%;
+    margin:20px auto;
+}
+.icon{
+    padding:8px 8px;
+}
+#input-name{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:no-wrap;
+    gap:20px;
+}
+#username-f{
+    width:46%;
+}
+#username{
+    width:45%;
+    padding:11px 40px 8px 40px;
+}
+#last_name{
+    margin-left:35px;
+}
+.hi{
+    width:100%;
+    padding:11px 40px 8px 40px;
+}
+.name{
+    width:100%;
+    padding:11px 40px 8px 40px;
+}
+
+.input i{
+    position:absolute;
+    font-size:20px;
+    color:#000957;
+    border: 1px solid #cccccc
+}
+#phone{
+    width:89.3%;
+}
+#india{
+    width:auto;
+    height:39px;
+}
+#country{
+    width:100%;
+    padding:11px 40px 8px 40px;
+    outline:none;
+    cursor:pointer;
+}
+#button{
+    width:100%;
+    padding:11px 40px 8px 40px;
+}
+.input,.name{
+    outline:none;
+}
+.name:hover, #country:hover{
+    background-color:#ffea006c ;
+    
+    box-shadow:0 0 5px 5px rgba(0, 60, 128, 0.673);
+}
+.name:focus, #country:focus{
+    border:2px solid #FFEB00;
+}
+.radio{
+    margin-right: 4px;
+}
+.gender{
+    margin-right:35px;
+}
+#button{
+    background-color:#ffea006c ;
+    outline:none;
+}
+#button :hover{
+    background-color: rgba(0, 60, 128, 0.673);
+}
+
+@media (max-width: 768px) {
+    #heading {
+        font-size: 28px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .name,
+    #phone,
+    #Password,
+    #comfirm_Password,
+    #email,
+    #country {
+        padding: 10px 35px;
+        font-size: 14px;
+    }
+
+    .gender {
+        font-size: 12px;
+    }
+
+    #button {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+
+    #heading {
+        font-size: 24px;
+    }
+
+    .name,
+    #phone,
+    #Password,
+    #comfirm_Password,
+    #email,
+    #country {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    #button {
+        font-size: 14px;
+    }
+}
+
+
+
